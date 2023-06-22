@@ -9,12 +9,12 @@ y = int(input('Numero:'))
 z = int(input('Numero:'))
 n = int(input('Numero:'))
 
-lista2 = []
+list2 = []
 
 for i in range(x+1):
     for j in range(y+1):
         for k in range(z + 1):
             if i+j+k != n:
-                lista = [i, j, k]
-                lista2.append(lista)
-print(lista2)
+                list_ = [i, j, k]
+                list2.append(list_)
+print(list2)
